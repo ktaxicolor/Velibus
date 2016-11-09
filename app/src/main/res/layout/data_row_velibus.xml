@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/bus_logo"
+        android:id="@+id/row_image_view"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/alt_transport_logo"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/list_details"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+
+    </TextView>
+
+</LinearLayout>

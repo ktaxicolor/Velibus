@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Velibus.iml" filepath="$PROJECT_DIR$/Velibus.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jackson-core-2.8.4/jackson-core-2.8.4.iml" filepath="$PROJECT_DIR$/jackson-core-2.8.4/jackson-core-2.8.4.iml" />
     </modules>
   </component>
 </project>
