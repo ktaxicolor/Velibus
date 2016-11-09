@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Velibus</string>
+    <string name="action_settings">Settings</string>
+    <string name="bus_tab_name">BUS</string>
+    <string name="velib_tab_name">VELIB</string>
+    <string name="alt_transport_logo">Bus/velo logo</string>
+
+ <!-- Transport data -->
+    <string name="url_bus_1">url to access json</string>
+    <string name="destination_bus_1">your destination</string>
+    <string name="station_bus_1">your station</string>
+
+    <string name="url_bus_2">url to access json</string>
+    <string name="destination_bus_2">your destination</string>
+    <string name="station_bus_2">your station</string>
+
+    <string name="url_bus_3">url to access json</string>
+    <string name="destination_bus_3">your destination</string>
+    <string name="station_bus_3">your station</string>
+
+    <string name="url_bus_4">url to access json</string>
+    <string name="destination_bus_4">your destination</string>
+    <string name="station_bus_4">your station</string>
+
+    <string name="url_velib_1">url to access json</string>
+    <string name="station_velib_1">your velib station</string>
+    <string name="url_velib_2">url to access json</string>
+    <string name="station_velib_2">your velib station</string>
+    <string name="url_velib_3">url to access json</string>
+    <string name="station_velib_3">your velib station</string>
+</resources>
