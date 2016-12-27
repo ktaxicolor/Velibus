@@ -6,21 +6,29 @@
     <string name="alt_transport_logo">Bus/velo logo</string>
 
  <!-- Transport data -->
+    <string name="ligne_bus_1">your bus number</string>
     <string name="url_bus_1">url to access json</string>
-    <string name="destination_bus_1">your destination</string>
     <string name="station_bus_1">your station</string>
+    <string name="destination_bus_1">your destination</string>
 
+    <string name="ligne_bus_2">your bus number</string>
     <string name="url_bus_2">url to access json</string>
-    <string name="destination_bus_2">your destination</string>
     <string name="station_bus_2">your station</string>
+    <string name="destination_bus_2">your destination</string>
 
-    <string name="url_bus_3">url to access json</string>
-    <string name="destination_bus_3">your destination</string>
+    <string name="ligne_bus_3_1">your bus number</string>
+    <string name="url_bus_3_1">url to access json</string>
+    <string name="ligne_bus_3_2">your bus number</string>
+    <string name="url_bus_3_2">url to access json</string>
     <string name="station_bus_3">your station</string>
+    <string name="destination_bus_3">your destination</string>
 
-    <string name="url_bus_4">url to access json</string>
-    <string name="destination_bus_4">your destination</string>
+    <string name="ligne_bus_4_1">your bus number</string>
+    <string name="url_bus_4_1">url to access json</string>
+    <string name="ligne_bus_4_2">your bus number</string>
+    <string name="url_bus_4_2">url to access json</string>
     <string name="station_bus_4">your station</string>
+    <string name="destination_bus_4">your destination</string>
 
     <string name="url_velib_1">url to access json</string>
     <string name="station_velib_1">your velib station</string>

@@ -27,19 +27,27 @@ public class BusDataBundle {
         bus_1 = new BusData(
                 context.getResources().getString(R.string.station_bus_1),
                 context.getResources().getString(R.string.destination_bus_1),
-                context.getResources().getString(R.string.url_bus_1));
+                context.getResources().getString(R.string.url_bus_1),
+                context.getResources().getString(R.string.ligne_bus_1));
         bus_2 = new BusData(
                 context.getResources().getString(R.string.station_bus_2),
                 context.getResources().getString(R.string.destination_bus_2),
-                context.getResources().getString(R.string.url_bus_2));
+                context.getResources().getString(R.string.url_bus_2),
+                context.getResources().getString(R.string.ligne_bus_2));
         bus_3 = new BusData(
                 context.getResources().getString(R.string.station_bus_3),
                 context.getResources().getString(R.string.destination_bus_3),
-                context.getResources().getString(R.string.url_bus_3));
+                context.getResources().getString(R.string.url_bus_3_1),
+                context.getResources().getString(R.string.ligne_bus_3_1),
+                context.getResources().getString(R.string.url_bus_3_2),
+                context.getResources().getString(R.string.ligne_bus_3_2));
         bus_4 = new BusData(
                 context.getResources().getString(R.string.station_bus_4),
                 context.getResources().getString(R.string.destination_bus_4),
-                context.getResources().getString(R.string.url_bus_4));
+                context.getResources().getString(R.string.url_bus_4_1),
+                context.getResources().getString(R.string.ligne_bus_4_1),
+                context.getResources().getString(R.string.url_bus_4_2),
+                context.getResources().getString(R.string.ligne_bus_4_2));
     }
 
     public void refresh()
