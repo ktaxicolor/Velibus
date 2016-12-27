@@ -36,4 +36,18 @@
     <string name="station_velib_2">your velib station</string>
     <string name="url_velib_3">url to access json</string>
     <string name="station_velib_3">your velib station</string>
+
+    <string name="url_rer_1">url to access json</string>
+    <string name="station_rer_1">your station</string>
+    <string name="destination_rer_1">your destination</string>
+
+    <string name="url_rer_2">url to access json</string>
+    <string name="station_rer_2">your station</string>
+    <string name="destination_rer_2">your destination</string>
+
+    <string name="url_rer_3">url to access json</string>
+    <string name="station_rer_3">your station</string>
+    <string name="destination_rer_3">your destination</string>
+
+
 </resources>
