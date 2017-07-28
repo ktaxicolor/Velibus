@@ -17,7 +17,7 @@ import java.net.URL;
  * Created by Klaou on 04/11/2016.
  */
 
-public class JSONBusParser {
+public class JSONRatpParser {
 
     private static final String ERROR_IN_JSON_PARSER = "ERROR IN JSON_PARSER";
     private ObjectMapper objectMapper = null;
@@ -25,7 +25,7 @@ public class JSONBusParser {
     private File jsonFile;
     private JsonNode jsonTree;
 
-    public JSONBusParser() {
+    public JSONRatpParser() {
         objectMapper = new ObjectMapper();
     }
 
