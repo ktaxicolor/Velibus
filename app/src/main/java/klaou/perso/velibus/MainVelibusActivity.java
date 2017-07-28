@@ -14,6 +14,7 @@ import android.view.MenuItem;
 
 import klaou.perso.velibus.R;
 import klaou.perso.velibus.fragments.MyBusFragment;
+import klaou.perso.velibus.fragments.MyRerFragment;
 import klaou.perso.velibus.fragments.MyVelibFragment;
 
 public class MainVelibusActivity extends AppCompatActivity {
@@ -44,6 +45,7 @@ public class MainVelibusActivity extends AppCompatActivity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
+        mViewPager.setOffscreenPageLimit(3);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
@@ -76,14 +78,15 @@ public class MainVelibusActivity extends AppCompatActivity {
 
                 case 1 : return MyVelibFragment.newInstance(position);
 
+                case 2 : return MyRerFragment.newInstance(position);
             }
             return null;
         }
 
         @Override
         public int getCount() {
-            // Show 2 total pages.
-            return 2;
+            // Show 3 total pages.
+            return 3;
         }
 
         @Override
@@ -93,6 +96,8 @@ public class MainVelibusActivity extends AppCompatActivity {
                     return getString(R.string.bus_tab_name);
                 case 1:
                     return getString(R.string.velib_tab_name);
+                case 2:
+                    return getString(R.string.rer_tab_name);
             }
             return null;
         }

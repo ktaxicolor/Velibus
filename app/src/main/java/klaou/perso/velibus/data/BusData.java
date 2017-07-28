@@ -1,7 +1,7 @@
 package klaou.perso.velibus.data;
 
 import klaou.perso.velibus.R;
-import klaou.perso.velibus.json.JSONBusParser;
+import klaou.perso.velibus.json.JSONRatpParser;
 
 /**
  * Created by Klaou on 04/11/2016.
@@ -9,11 +9,11 @@ import klaou.perso.velibus.json.JSONBusParser;
 public class BusData extends TransportData
 {
     // Constants
-    private static final String NO_DATA_FOUND = "NO DATA FOUND";
+    private static final String NO_DATA_FOUND = "999";
 
 
     // Fields
-    private JSONBusParser jsonParser;
+    private JSONRatpParser jsonParser;
 
     private LittleBusDataLot bus_option_1;
     private LittleBusDataLot bus_option_2;
@@ -38,7 +38,7 @@ public class BusData extends TransportData
         busStopName = pBusStopName;
         busDestName = pBusDestName;
 
-        jsonParser = new JSONBusParser();
+        jsonParser = new JSONRatpParser("busData.json");
     }
 
     void refreshData()

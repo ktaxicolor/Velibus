@@ -24,8 +24,11 @@ public class JSONRatpParser {
     private File jsonOutputFile;
     private File jsonFile;
     private JsonNode jsonTree;
+    private String tempJsonFileName;
 
-    public JSONRatpParser() {
+    public JSONRatpParser(String pTempJsonFileName)
+    {
+        tempJsonFileName = pTempJsonFileName;
         objectMapper = new ObjectMapper();
     }
 
@@ -42,12 +45,12 @@ public class JSONRatpParser {
     }
 
     public String getMinutesToBus(int busPosition) {
-        JsonNode busSchedulesNode = jsonTree.path("response").path("schedules");
-        if(busSchedulesNode.size() > busPosition)
+        JsonNode ratpSchedulesNode = jsonTree.path("result").path("schedules");
+        if(ratpSchedulesNode.size() > busPosition)
         {
-            return busSchedulesNode.get(busPosition).path("message").asText();
+            return ratpSchedulesNode.get(busPosition).path("message").asText();
         }
-        return ERROR_IN_JSON_PARSER;
+        return "";
     }
 
 
@@ -77,7 +80,7 @@ public class JSONRatpParser {
         jsonOutputFile = new File(temp_path, "/");
         if (!jsonOutputFile.exists())
             jsonOutputFile.mkdirs();
-        jsonFile = new File(jsonOutputFile, "busData.json");
+        jsonFile = new File(jsonOutputFile, tempJsonFileName);
     }
 }
 
