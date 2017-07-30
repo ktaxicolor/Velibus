@@ -3,51 +3,59 @@
     <string name="action_settings">Settings</string>
     <string name="bus_tab_name">BUS</string>
     <string name="velib_tab_name">VELIB</string>
+    <string name="rer_tab_name">RER</string>
     <string name="alt_transport_logo">Bus/velo logo</string>
 
- <!-- Transport data -->
-    <string name="ligne_bus_1">your bus number</string>
-    <string name="url_bus_1">url to access json</string>
-    <string name="station_bus_1">your station</string>
-    <string name="destination_bus_1">your destination</string>
+    <!-- BUS data -->
+    <string name="ligne_bus_1">118</string>
+    <string name="url_bus_1">https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/118/val+de+fontenay+rer/R?_format=json</string>
+    <string name="station_bus_1">VDF</string>
+    <string name="destination_bus_1">Mowat Palace</string>
 
-    <string name="ligne_bus_2">your bus number</string>
-    <string name="url_bus_2">url to access json</string>
-    <string name="station_bus_2">your station</string>
-    <string name="destination_bus_2">your destination</string>
+    <string name="ligne_bus_2">118</string>
+    <string name="url_bus_2">https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/118/liberation/A?_format=json</string>
+    <string name="station_bus_2">Mowat Palace</string>
+    <string name="destination_bus_2">VDF</string>
 
-    <string name="ligne_bus_3_1">your bus number</string>
-    <string name="url_bus_3_1">url to access json</string>
-    <string name="ligne_bus_3_2">your bus number</string>
-    <string name="url_bus_3_2">url to access json</string>
-    <string name="station_bus_3">your station</string>
-    <string name="destination_bus_3">your destination</string>
+    <string name="ligne_bus_3_1">118</string>
+    <string name="url_bus_3_1">https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/118/liberation/R?_format=json</string>
+    <string name="ligne_bus_3_2">124</string>
+    <string name="url_bus_3_2">https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/124/diderot+silvestri/R?_format=json</string>
+    <string name="station_bus_3">Mowat Palace</string>
+    <string name="destination_bus_3">Vincennes</string>
 
-    <string name="ligne_bus_4_1">your bus number</string>
-    <string name="url_bus_4_1">url to access json</string>
-    <string name="ligne_bus_4_2">your bus number</string>
-    <string name="url_bus_4_2">url to access json</string>
-    <string name="station_bus_4">your station</string>
-    <string name="destination_bus_4">your destination</string>
+    <string name="ligne_bus_4_1">118</string>
+    <string name="url_bus_4_1">https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/118/avenue+du+chateau/A?_format=json</string>
+    <string name="ligne_bus_4_2">124</string>
+    <string name="url_bus_4_2">https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/124/avenue+du+chateau/A?_format=json</string>
+    <string name="station_bus_4">Vincennes</string>
+    <string name="destination_bus_4">Mowat Palace</string>
 
-    <string name="url_velib_1">url to access json</string>
-    <string name="station_velib_1">your velib station</string>
-    <string name="url_velib_2">url to access json</string>
-    <string name="station_velib_2">your velib station</string>
-    <string name="url_velib_3">url to access json</string>
-    <string name="station_velib_3">your velib station</string>
+    <!-- VELIB data -->
+    <string name="url_velib_1">https://api.jcdecaux.com/vls/v1/stations/43008?contract=Paris&amp;apiKey=78406aad67672b36d0d190a68e77b6e5eda2637b</string>
+    <string name="station_velib_1">Libération</string>
+    <string name="url_velib_2">https://api.jcdecaux.com/vls/v1/stations/12123?contract=Paris&amp;apiKey=78406aad67672b36d0d190a68e77b6e5eda2637b</string>
+    <string name="station_velib_2">Métro Vincennes</string>
+    <string name="url_velib_3">https://api.jcdecaux.com/vls/v1/stations/43005?contract=Paris&amp;apiKey=78406aad67672b36d0d190a68e77b6e5eda2637b</string>
+    <string name="station_velib_3">RER Vincennes</string>
 
-    <string name="url_rer_1">url to access json</string>
-    <string name="station_rer_1">your station</string>
-    <string name="destination_rer_1">your destination</string>
+    <!-- RER data -->
+    <string name="url_rer_1">https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/a/val+de+fontenay/A?_format=json</string>
+    <string name="station_rer_1">VDF</string>
+    <string name="destination_rer_1">Paris</string>
 
-    <string name="url_rer_2">url to access json</string>
-    <string name="station_rer_2">your station</string>
-    <string name="destination_rer_2">your destination</string>
+    <string name="url_rer_2">https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/a/vincennes/R?_format=json</string>
+    <string name="station_rer_2">Vincennes</string>
+    <string name="destination_rer_2">VDF ??</string>
 
-    <string name="url_rer_3">url to access json</string>
-    <string name="station_rer_3">your station</string>
-    <string name="destination_rer_3">your destination</string>
+    <string name="url_rer_3">https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/a/chatelet+les+halles/R?_format=json</string>
+    <string name="station_rer_3">Châtelet</string>
+    <string name="destination_rer_3">Vincennes</string>
+
+    <string name="url_rer_4">https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/a/vincennes/A?_format=json</string>
+    <string name="station_rer_4">Vincennes</string>
+    <string name="destination_rer_4">Paris</string>
+
 
 
 </resources>

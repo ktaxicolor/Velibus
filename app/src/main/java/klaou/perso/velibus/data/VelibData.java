@@ -6,7 +6,7 @@ import klaou.perso.velibus.json.JSONVelibParser;
 public class VelibData extends TransportData {
 
     private final int ERROR_CODE = 999;
-    private final int ROW_IMAGE = R.drawable.bike_logo_3;
+    private final int ROW_IMAGE = R.drawable.bike_black_48dp;
 
     private String urlData;
     private String stationName;
