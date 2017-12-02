@@ -27,13 +27,17 @@ public class BusDataBundle {
         bus_1 = new BusData(
                 context.getResources().getString(R.string.station_bus_1),
                 context.getResources().getString(R.string.destination_bus_1),
-                context.getResources().getString(R.string.url_bus_1),
-                context.getResources().getString(R.string.ligne_bus_1));
+                context.getResources().getString(R.string.url_bus_1_1),
+                context.getResources().getString(R.string.ligne_bus_1_1),
+                context.getResources().getString(R.string.url_bus_1_2),
+                context.getResources().getString(R.string.ligne_bus_1_2));
         bus_2 = new BusData(
                 context.getResources().getString(R.string.station_bus_2),
                 context.getResources().getString(R.string.destination_bus_2),
-                context.getResources().getString(R.string.url_bus_2),
-                context.getResources().getString(R.string.ligne_bus_2));
+                context.getResources().getString(R.string.url_bus_2_1),
+                context.getResources().getString(R.string.ligne_bus_2_1),
+                context.getResources().getString(R.string.url_bus_2_2),
+                context.getResources().getString(R.string.ligne_bus_2_2));
         bus_3 = new BusData(
                 context.getResources().getString(R.string.station_bus_3),
                 context.getResources().getString(R.string.destination_bus_3),

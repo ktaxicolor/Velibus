@@ -125,9 +125,10 @@ public class MyRerFragment extends Fragment{
             {
                 rerDataRows.add(rerDataBundle.getRer_1());
                 rerDataRows.add(rerDataBundle.getRer_2());
+                /*
                 rerDataRows.add(rerDataBundle.getRer_3());
                 rerDataRows.add(rerDataBundle.getRer_4());
-
+                */
                 adapter.notifyDataSetChanged();
             }else
             {
